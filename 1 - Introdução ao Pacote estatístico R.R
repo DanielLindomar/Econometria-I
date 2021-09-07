@@ -33,18 +33,18 @@ library(stargazer)
 
 # Configurar uma pasta de trabalho
 # Podemos criar um objeto com o endereço onde estão os arquivos de dados, aqui chamaremos de "diretório":
-diretório <- "C:/Users/lindo/OneDrive/Documentos/Arquivos R/"
+diretório <- "C:/Users/lindo/Google Drive/Projetos R/Econometria-I/"
 
 # Ver e configurar a pasta de trabalho
 # Podemos ver o endereço da pasta onde o R está salvando os arquivos:
 getwd()
 # De forma alternativa, podemos configurar outro endereço
-setwd("C:/Users/lindo/OneDrive/Documentos/Arquivos R")
+setwd("C:/Users/lindo/Google Drive/Projetos R/Econometria-I")
 getwd()
 
 # Leia o arquivo de dados de limonada ou outro arquivo de dados qualquer
 # Caso não tenha configurado o endereço onde se encontra o arquivo, utilize um dos seguintes comandos:
-Limonada <- read.csv2("C:/Users/lindo/OneDrive/Documentos/Arquivos R/Limonada.csv")
+Limonada <- read.csv2("C:/Users/lindo/Google Drive/Projetos R/Econometria-I/Limonada.csv")
 Limonada <- read.csv2(paste0(diretório, "Limonada.csv"))
 
 # Como configuramos o endereço do arquivo usaremos o seguinte comando
